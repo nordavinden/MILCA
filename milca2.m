@@ -13,8 +13,8 @@ function [Y, W] = milca2(X, threads, P , neighbours, angles, pass)
 % Arguments:
 % X - an M by N matrix of M mixtures with N observations each 
 % threads - the number of CPU threads to use (optional, default = 1), 0 means 
-% P - the number of components to retain in PCA dimension reduction (optional)
 % use all available cores, -1 means all available except 1
+% P - the number of components to retain in PCA dimension reduction (optional)
 % neighbours - the number of nearest neighbours for mutual information 
 % estimator (optional, default 10)
 % angles - precision parameter, 2^angles defines the number of angles 
